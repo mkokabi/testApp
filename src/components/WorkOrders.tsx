@@ -346,7 +346,7 @@ const WorkOrders = () => {
         isLastPage: false,
         orderBy: null,
       };
-      
+
       setItems(
         workOrders.items.map((wo) => ({
           id: wo.id,
