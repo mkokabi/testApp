@@ -390,7 +390,7 @@ const WorkOrders = () => {
               data.selectedItems[0] && data.selectedItems[0].Id
             )
           }
-          resizableColumns
+          // resizableColumns
           columnSizingOptions={columnSizingOptions}
         >
           <DataGridHeader>

@@ -21,6 +21,7 @@ import {
   Person24Regular,
   DarkTheme24Regular,
 } from "@fluentui/react-icons";
+import { ResizableColumns } from "./components/example";
 // import { useAtom, useAtomValue } from "jotai";
 // import { isInProgressAtom, messageAtom } from "./atoms/messageBarAtoms";
 // import { themeAtom } from "./atoms/themeAtom";
@@ -146,6 +147,7 @@ const App = () => {
             <MessageArea />
             <Routes>
               <Route path="/workorders" element={<WorkOrders />} />
+              {/* <Route path="/workorders" element={<ResizableColumns />} /> */}
             </Routes>{" "}
           </div>
         </div>

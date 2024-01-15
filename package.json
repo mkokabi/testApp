@@ -1,7 +1,7 @@
 {
   "name": "@testOrg/testApp",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve  --port 8500 --env isLocal",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
@@ -28,6 +28,7 @@
     "babel-jest": "^27.5.1",
     "concurrently": "^6.2.1",
     "cross-env": "^7.0.3",
+    "dotenv-webpack": "^8.0.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-ts-react-important-stuff": "^3.0.0",
