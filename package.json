@@ -49,6 +49,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@azure/msal-browser": "^3.7.0",
+    "@azure/msal-react": "^2.0.9",
     "@fluentui/react-components": "^9.44.3",
     "@fluentui/react-icons": "^2.0.225",
     "@types/jest": "^27.0.1",
