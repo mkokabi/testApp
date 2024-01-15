@@ -146,8 +146,8 @@ const App = () => {
           <div className={verticalStackClass.root}>
             <MessageArea />
             <Routes>
-              <Route path="/workorders" element={<WorkOrders />} />
-              {/* <Route path="/workorders" element={<ResizableColumns />} /> */}
+              {/* <Route path="/workorders" element={<WorkOrders />} /> */}
+              <Route path="/workorders" element={<ResizableColumns />} />
             </Routes>{" "}
           </div>
         </div>

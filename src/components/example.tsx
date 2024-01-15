@@ -191,7 +191,7 @@ export const ResizableColumns = () => {
         sortable
         getRowId={(item) => item.file.label}
         selectionMode="multiselect"
-        resizableColumns
+        // resizableColumns
         columnSizingOptions={columnSizingOptions}
       >
         <DataGridHeader>
